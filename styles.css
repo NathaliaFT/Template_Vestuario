@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '', sans-serif;
+}
+
+
+.navbar-nav .nav-link {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #3D3D3D;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
+    border: 1px solid transparent;
+    padding: 18px 15px;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B9C2C4;
+}
+header {
+    background-color:  #B9C2C4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.h2 {
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.tip {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #B9C2C4;
+   
+}
+
+
+.dropdown .dropdown-menu {
+    position: relative;
+    background: transparent;
+    border: 0px solid #AFB6BA;
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: serif;
+    color: #3D3D3D;
+}
+
+.spring {
+    background-color: #a1d4a5; 
+}
+
+.spring h2, .spring p {
+    color: #154734; 
+}
+
+.spring p {
+    font-weight: bold;
+}
+
+.spring::before {
+    content: '\1F33A'; /* Emoji de flor */
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #154734;
+}
+
+.spring::after {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #a1d4a5; 
+}
+
+.summer {
+    background-color: #b3e0ff;
+}
+
+.summer h2, .summer p {
+    color: #1f497d;
+}
+
+.summer p {
+    font-weight: bold;
+}
+
+.summer::before {
+    content: '\1F30A'; /* Emoji de onda */
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1f497d;
+}
+
+.summer::after {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #a1d4a5;
+}
+
+.autumn {
+    background-color: #800020;
+}
+
+.autumn h2, .autumn p {
+    color: #fff;
+}
+
+.autumn::before {
+    content: '\1F342'; /* Emoji de folha */
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #800020;
+}
+
+.winter {
+    background-color: #793d11; 
+}
+
+.winter h2, .winter p {
+    color: #fff;
+}
+
+.winter::before {
+    content: '\1F36B'; /* Emoji de chocolate */ 
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #8b4513;
+}
+
+
+
+footer {
+    background-color:  #B9C2C4;
+    padding: 50px 0;
+    text-align: center;
+}
+.container-footer h3 {
+    font-size: 30px;
+    color:#FFFFF5;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .medias-socias {
+    margin-top: 0px;
+}
+
+.icons .medias-socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FFFFF5;
+    border: 1px solid #FFFFF5;
+    transition: all 0.5s ease;
+}
+
+.icons .medias-socias a i {
+    align-items: center;
+    font-size: 20px;
+}
+
+.icons .medias-socias a:hover {
+    align-items: center;
+    color: #3D3D3D;
+    background-color: #FFFFF5;
+}
